@@ -1,8 +1,23 @@
-# React + Vite
+# UI-Frameworks
+The goal of this project is to design a visually appealing start page that showcases the capabilities of various UI frameworks, including Tailwind CSS, Material-UI (MUI), and Bootstrap. This will provide hands-on experience with these frameworks and help in understanding their unique features, strengths, and weaknesses.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Set up
+1. Clone reop
+2. Run ```git pull origin main```
+3. Run ```npm install```
+4. Run ```npm run dev```
 
-Currently, two official plugins are available:
+## Figma
+https://www.figma.com/design/NwgZV1v9av26871T8GiJQS/UI-Frameworks?node-id=0-1&p=f&t=PDuJhSIyJjAiaiER-0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tailwind css
+https://tailwindcss.com/
+
+### Material UI (MUI)
+https://mui.com/
+
+### Boostrap
+https://getbootstrap.com/
+
+##### Contriutros
+Oscar, Sebastian, Andreas
