@@ -4,7 +4,7 @@ export default function ListComponent({ title, two, three, four }) {
       <section>
         <ul>
           <li>
-            <p>{title}</p>
+            <p className="text-lg font-semibold">{title}</p>
           </li>
           <li>
             <p>{two}</p>

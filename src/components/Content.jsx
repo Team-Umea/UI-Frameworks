@@ -1,11 +1,9 @@
-import { Button } from "@mui/material";
+import Hero from "./Hero";
 
 export default function Content() {
   return (
     <div>
-      <Button variant="outlined" color="primary">
-        Click Me
-      </Button>
+      <Hero />
     </div>
   );
 }

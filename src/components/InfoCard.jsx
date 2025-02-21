@@ -7,8 +7,8 @@ export default function InfoCard({ heading, subHeading, type }) {
   return (
     <div>
       <div>
-        <h1>{heading}</h1>
-        <h3>{subHeading}</h3>
+        <h1 className="text-slate-400 text-2xl">{heading}</h1>
+        <h3 className="text-slate-600 text-xl">{subHeading}</h3>
       </div>
 
       {type == 1 ? (
