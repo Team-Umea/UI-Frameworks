@@ -1,4 +1,6 @@
 export default function ListComponent({ title, two, three, four }) {
+  const baseClass = "text-gray-600";
+
   return (
     <>
       <section>
@@ -7,13 +9,13 @@ export default function ListComponent({ title, two, three, four }) {
             <p className="text-lg font-semibold">{title}</p>
           </li>
           <li>
-            <p>{two}</p>
+            <p className={baseClass}>{two}</p>
           </li>
           <li>
-            <p>{three}</p>
+            <p className={baseClass}>{three}</p>
           </li>
           <li>
-            <p>{four}</p>
+            <p className={baseClass}>{four}</p>
           </li>
         </ul>
       </section>
