@@ -21,9 +21,9 @@ export default function Footer() {
       <section>
         <p className="font-semibold m-1">Connect</p>
         <span className="flex gap-x-2 m-0">
-          <FaTwitter className="text-gray-600" size={20} />
-          <FaGithub className="text-gray-600" size={20} />
-          <FaLinkedin className="text-gray-600" size={20} />
+          <FaTwitter className="text-gray-500" size={20} />
+          <FaGithub className="text-gray-500" size={20} />
+          <FaLinkedin className="text-gray-500" size={20} />
         </span>
       </section>
     </footer>

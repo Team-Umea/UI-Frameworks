@@ -1,6 +1,6 @@
 export default function SmallInfoCard({ icon, heading, subHeading }) {
   return (
-    <div className="flex flex-col mx-7">
+    <div className="flex flex-col mx-7 max-w-[30%]">
       {icon}
       <div>
         <h2 className="text-xl font-semibold text-slate-700">{heading}</h2>

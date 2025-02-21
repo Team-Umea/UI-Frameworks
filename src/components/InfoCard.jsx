@@ -8,8 +8,8 @@ import { BiFork } from "react-icons/bi";
 
 export default function InfoCard({ heading, subHeading, type }) {
   return (
-    <div className="flex flex-col items-center p-4">
-      <div className="pb-5 items-center">
+    <div className="flex flex-col items-center p-8 mb-24">
+      <div className="pb-5 items-center text-center mb-6">
         <h1 className="text-slate-700 text-2xl font-bold">{heading}</h1>
         <h3 className="text-slate-600 text-xl">{subHeading}</h3>
       </div>
